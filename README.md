@@ -19,20 +19,6 @@ Considere la siguiente situación: En la misma distribuidora del práctico anter
 #### Tareas
 Cada empleado tiene un listado de tareas a realizar y debe indicar en el sistema si fueron realizadas o no. Para ello deberá crear dos listas enlazadas: una para las tareas pendientes y otra para las tareas realizadas. Cada vez que se marque una tarea como realizada deberá mover la tarea de la lista de tareas pendientes a la lista de tareas realizadas.
 
-Las estructuras de datos necesarias son las siguientes:
-```c
-struct Tarea{
-    int TareaID; // Numérico autoincremental comenzando en 1000
-    char *Descripcion; // Descripción de la tarea
-    int Duracion; // Duración entre 10 – 100
-};
-
-struct Nodo{
-    Tarea T;
-    Nodo *Siguiente;
-};
-```c
-
 ### 3. Desarrollo de Interfaces y Funcionalidades
 
 1. **Interfaz de Carga de Tareas**
