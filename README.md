@@ -31,3 +31,19 @@ struct Nodo{
     Tarea T;
     Nodo *Siguiente;
 };
+
+
+### 3. Desarrollo de Interfaces y Funcionalidades
+
+1. **Interfaz de Carga de Tareas**
+   Desarrolle una interfaz de carga de tareas para solicitar tareas pendientes, en la cual se solicite descripción y duración de la misma (el id debe ser generado automáticamente por el sistema, de manera autoincremental comenzando desde el número 1000). Al cabo de cada tarea consulte al usuario si desea ingresar una nueva tarea o finalizar la carga.
+
+2. **Interfaz para Transferencia de Tareas**
+   Implemente una interfaz para elegir qué tareas de la lista de pendientes deben ser transferidas a la lista de tareas realizadas.
+
+3. **Funcionalidad para Listar Tareas**
+   Implemente una funcionalidad que permita listar todas las tareas pendientes y realizadas.
+
+4. **Funcionalidad para Consultar Tareas**
+   Implemente una funcionalidad que permita consultar tareas por ID o palabra clave y mostrarlas por pantalla, indicando si corresponde a una tarea pendiente o realizada.
+
