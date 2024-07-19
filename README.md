@@ -31,7 +31,7 @@ struct Nodo{
     Tarea T;
     Nodo *Siguiente;
 };
-
+```c
 
 ### 3. Desarrollo de Interfaces y Funcionalidades
 
