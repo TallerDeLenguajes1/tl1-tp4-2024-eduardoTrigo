@@ -33,3 +33,15 @@ Cada empleado tiene un listado de tareas a realizar y debe indicar en el sistema
 4. **Funcionalidad para Consultar Tareas**
    Implemente una funcionalidad que permita consultar tareas por ID o palabra clave y mostrarlas por pantalla, indicando si corresponde a una tarea pendiente o realizada.
 
+Las estructuras de datos necesarias son las siguientes:
+   ```c
+   struct Tarea{
+       int TareaID; // Numérico autoincremental comenzando en 1000
+       char *Descripcion; // Descripción de la tarea
+       int Duracion; // Duración entre 10 – 100
+   };
+
+   struct Nodo{
+       Tarea T;
+       Nodo *Siguiente;
+   };
